@@ -1,0 +1,24 @@
+﻿{% extends 'shared/base.html' %}
+{% load  static %}
+
+{% block css %}
+    <link href="{% static 'shared/css/base_form.css' %}" rel="stylesheet"/>
+    <link href="{% static 'users/css/style.css' %}" rel="stylesheet"/>
+{% endblock %}
+
+{% block js %}
+    
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/custom_validation_methods.js' %}" type="application/javascript"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'users/js/element_validation.js' %}" type="application/javascript"></script>
+    <script src="{% static 'users/js/register_script.js' %}" type="application/javascript"></script>
+
+
+{% endblock %}
+
+{% block body %}
+
+    {% include 'shared/base_form.html'  with container_left="col-md-3" form_action='users:register' container_center="col-md-6" container_right="col-md-3" container_id='registerPanel' form_icon='fa fa-user' form_title='YENİ KULLANICI' button_icon='fa fa-paper-plane' button_text='Kaydet' %}
+
+{% endblock %}

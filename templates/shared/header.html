@@ -1,0 +1,59 @@
+{% load static %}
+<link href="{% static 'shared/css/header.css' %}" rel="stylesheet"/>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-light">
+    <li class="navbar-brand">
+      <a class="nav-link" id="header_title" href="{% url 'home:home' %}">
+          <i class="fa fa-car" aria-hidden="true"></i> &nbsp;GPS Takip</a>
+    </li>
+
+    <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" id="header_title" href="{% url 'home:home' %}">Anasayfa</a>
+        </li>
+
+        <li class="nav-item dropdown"> <!--Kullanıcı DROPDOWN-->
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+                Kullanıcı
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{% url 'users:register' %}">Ekle</a>
+                <a class="dropdown-item" href="{% url 'users:user_list' %}">Düzenle & Sil</a>
+            </div>
+
+        </li><!--Kullanıcı DROPDOWN-END-->
+
+       <li class="nav-item dropdown"> <!--Cihaz DROPDOWN-->
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+                Cihaz
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{% url 'iot:iot_create' %}">Ekle</a>
+                <a class="dropdown-item" href="{% url 'iot:iot_list' %}">Düzenle & Sil</a>
+            </div>
+
+        </li><!--Cihaz DROPDOWN-END-->
+
+        <li class="nav-item dropdown"> <!--Rapor DROPDOWN-->
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+                Rapor
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Personeller</a>
+                <a class="dropdown-item" href="#">Cihazlar</a>
+                <a class="dropdown-item" href="#">Konum Kayıtları</a>
+            </div>
+
+        </li><!--Rapor DROPDOWN-END-->
+    </ul>
+
+    <a class="nav-link inline-group" id="header_title" href="{% url 'logout' %}">Oturumu Kapat</a>
+
+</nav>

@@ -1,0 +1,16 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+
+
+{% block css %}
+    <link href="{% static "iot/css/style.css"%}" rel="stylesheet" />
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'iot/js/element_validation.js' %}" type="application/javascript"></script>
+    <script src="{% static 'iot/js/update_ajax_validation.js' %}" type="application/javascript"></script>
+{% endblock %}
+
+{% block body %}
+       {% include 'shared/base_form.html' with form_action='iot:iot_update' form_action_params=serial_no container_id='iotUpdatePanel' form_icon='fa fa-microchip' form_title='CİHAZ BİLGİLERİ' button_icon='fa fa-paper-plane' button_text='Güncelle' %}
+{% endblock %}

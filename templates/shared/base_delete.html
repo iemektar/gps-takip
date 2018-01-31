@@ -1,0 +1,66 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+
+{%  block css %}
+    <link href="{% static 'shared/css/base_form.css' %}" rel="stylesheet"/>
+    <link href="{% static 'shared/css/base_delete.css' %}" rel="stylesheet"/>
+{% endblock %}
+{% block body %}
+
+    <div class="container" id="{{ container_id }}">
+        <div class="row">
+            <div class="{{ container_left|default:"col-md-3" }}"></div>
+            <div class="{{ container_center|default:"col-md-6" }}">
+                <div class="card">
+                    <div class="card-title" id="{{ form_title_id|default:"formTitle" }}" >
+                        <i class="{{ form_icon }}" aria-hidden="true"></i> &nbsp;&nbsp;{{ form_title }}</div>
+                    <div class="card-body">
+                     <form method="{{ form_method|default:"post" }}" action="{% url form_action form_action_params %}">
+                     {% csrf_token %}
+                        <div class="row">
+                            <div class="{{ label_grid_size|default:"col-md-6" }}">
+
+                                {% for label in labels%}
+                                    <label>{{ label }}</label>
+                                    <br>
+                                {% endfor %}
+
+                            </div>
+
+                            <div class="{{ value_grid_size|default:"col-md-6" }}">
+                                {% for value in values %}
+                                    <label class="value_label"><strong>{{ value|default:'-' }}</strong></label>
+                                    <br>
+                                {% endfor %}
+                            </div>
+
+                        </div>
+
+                    <hr />
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <a href="{% if no_params %}
+                                            {% url no_link no_params %}
+                                          {% else %}
+                                            {% url no_link %}
+                                         {% endif %}" class="btn btn-primary btn-block">
+                                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                     &nbsp;{{ no_button_text|default:'Hayır' }}</a>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-outline-danger btn-block">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                     &nbsp;{{ no_button_text|default:'Evet' }}</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            <br/>
+            </div>
+            <div class="{{ container_right|default:"col-md-3" }}"></div>
+        </div>
+    </div>
+
+{% endblock %}

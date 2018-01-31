@@ -1,0 +1,17 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+
+
+{% block css %}
+    <link href="{% static "iot/css/style.css"%}" rel="stylesheet" />
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'iot/js/element_validation.js' %}" type="application/javascript"></script>
+    <script src="{% static 'iot/js/create_ajax_validation.js' %}" type="application/javascript"></script>
+{% endblock %}
+
+{% block body %}
+       {% include 'shared/message_box.html' %}
+       {% include 'shared/base_form.html' with form_action='iot:iot_create' container_id='iotRegisterPanel' form_icon='fa fa-microchip' form_title='YENİ CİHAZ' button_icon='fa fa-paper-plane' button_text='Kaydet' %}
+{% endblock %}

@@ -1,0 +1,19 @@
+#header_title{
+    color: white;
+}
+
+#header_title:hover{
+    color: yellowgreen;
+}
+
+#navbarDropdownMenuLink{
+    color: white;
+}
+
+#navbarDropdownMenuLink:hover{
+    color: yellowgreen;
+}
+
+.dropdown-item:focus{
+     background-color: yellowgreen;
+}

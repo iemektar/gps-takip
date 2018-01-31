@@ -1,0 +1,15 @@
+{% load static %}
+
+
+{% block css %}
+    <link href="{% static "iot/css/style.css"%}" rel="stylesheet" />
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+       {% include 'shared/base_delete.html' with container_id='deleteForm' form_title_id='formTitle' form_icon='fa fa-times' form_title='Cihazı silmek sitediğinizden emin misiniz?' form_action='iot:iot_delete' form_action_params=serial_no no_link='iot:iot_list' %}
+{% endblock %}

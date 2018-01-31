@@ -1,0 +1,55 @@
+{% load static %}
+
+{% block css %}
+    <link href="{% static 'shared/css/base_form.css' %}" rel="stylesheet"/>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'js/ajax_setup.js' %}" type="application/javascript"></script>
+{% endblock %}
+
+
+<div class="container" id="{{ container_id }}">
+    <div class="row">
+        <div class="{{ container_left|default:"col-md-2" }}"></div>
+        <div class="{{ container_center|default:"col-md-8" }}">
+            <div class="card">
+                <div class="card-title" id="{{ form_title_id|default:"formTitle" }}" >
+                    <i class="{{ form_icon }}" aria-hidden="true"></i> &nbsp;&nbsp;{{ form_title }}</div>
+                <div class="card-body">
+                   <form method="{{ form_method|default:"post" }}"
+                         {% if form_action_params %}
+                            action="{% url form_action form_action_params%}"
+                         {% else %}
+                            action="{% url form_action %}"
+                         {% endif %}>
+                   {% csrf_token %}
+                        {% for field in form.visible_fields %}
+                            <div class="row">
+                                <div class="col-md-4">
+                                    {{ field.label_tag }}
+                                </div>
+                                <div class="col-md-7">
+                                    {{ field }}
+                                </div>
+                            </div>
+                            <br/>
+                        {% endfor %}
+                       <span class="button">
+                            <button class="{{ button_class|default:"btn btn-success" }}"
+                                    type="{{ button_type|default:"submit" }}"
+                                    {% if button_type is not 'submit' %}
+                                        href="{{ button_link }}"
+                                    {% endif %}>
+                                <i class="{{ button_icon }}" aria-hidden="true"></i> &nbsp;{{ button_text }}</button>
+                       </span>
+                   </form>
+                </div>
+            </div>
+        <br/>
+        </div>
+        <div class="{{ container_right|default:"col-md-2" }}"></div>
+    </div>
+</div>

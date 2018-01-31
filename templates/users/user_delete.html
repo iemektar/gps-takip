@@ -1,0 +1,15 @@
+{% load static %}
+
+
+{% block css %}
+    <link href="{% static "users/css/style.css"%}" rel="stylesheet" />
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+       {% include 'shared/base_delete.html' with container_id='deleteForm' form_title_id='formTitle' form_icon='fa fa-times' form_title='Kullanıcıyı silmek sitediğinizden emin misiniz?' form_action='users:delete' form_action_params=username no_link='users:user_list' %}
+{% endblock %}

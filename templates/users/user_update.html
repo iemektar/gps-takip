@@ -1,0 +1,21 @@
+{% extends 'shared/base.html' %}
+{% load  static %}
+
+{% block css %}
+    <link href="{% static 'users/css/style.css' %}" rel="stylesheet"/>
+{% endblock %}
+
+{% block js %}
+
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/custom_validation_methods.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'users/js/element_validation.js' %}"></script>
+
+{% endblock %}
+
+{% block body %}
+
+    {% include 'shared/base_form.html'  with container_left="col-md-3" form_action='users:update' form_action_params=username container_center="col-md-6" container_right="col-md-3" container_id='updatePanel' form_icon='fa fa-user' form_title='KULLANICI BİLGİLERİ' button_icon='fa fa-paper-plane' button_text='Güncelle' %}
+
+{% endblock %}
