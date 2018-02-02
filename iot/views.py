@@ -93,7 +93,7 @@ def iot_list_data(request):
 
     iots = list()
     for iot in IoT.objects.all():
-        iots.append(list((iot.serial_no,iot.plate_no,iot.is_active,'ut1',
+        iots.append(list((iot.serial_no,iot.plate_no,iot.is_active,
                           reverse('iot:iot_update', kwargs={'serial_no': iot.serial_no}) + ","+
                           reverse('iot:iot_delete', kwargs={'serial_no': iot.serial_no}))))
 
