@@ -2,170 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db17f87d-fe53-4649-890b-21c75342d72d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/GPSTakip/settings.py" afterPath="$PROJECT_DIR$/GPSTakip/settings.py" />
-      <change beforePath="$PROJECT_DIR$/GPSTakip/wsgi.py" afterPath="$PROJECT_DIR$/GPSTakip/wsgi.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/PKG-INFO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/SOURCES.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/not-zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/requires.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/EGG-INFO/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/calendarcolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/checkboxcolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/datetimecolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/imagecolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/linkcolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/columns/sequencecolumn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/forms.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/css/datatable.bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/Sorting icons.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/back_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/back_enabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/back_enabled_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/forward_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/forward_enabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/forward_enabled_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/sort_asc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/sort_asc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/sort_both.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/sort_desc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/images/sort_desc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/js/bootstrap.dataTables.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/js/dataTables.fixedColumns.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/js/jquery.browser.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/static/table/js/jquery.dataTables.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tables.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/templates/table/simple_table.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/templates/table/table.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/templatetags/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/templatetags/table_tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/test_columns.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/test_tables.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/test_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/test_views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/tests/test_widgets.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable-0.3.1-py3.6.egg/table/widgets.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/PKG-INFO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/SOURCES.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/not-zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/requires.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/EGG-INFO/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/GPSTakip/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/GPSTakip/settings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/GPSTakip/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/GPSTakip/wsgi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/apps.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/migrations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/home/views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/apps.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/forms.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/migrations/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/migrations/0002_auto_20180124_2116.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/migrations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/iot/views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/apps.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/forms.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/migrations/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/migrations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/urls.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_datatable_view-0.9.0b5-py3.6.egg/users/views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/easy-install.pth" afterPath="$PROJECT_DIR$/env/Lib/site-packages/easy-install.pth" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip-9.0.1.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/database.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/index.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/index.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/locators.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/metadata.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/scripts.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/scripts.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distlib/wheel.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/distro.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/constants.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/lockfile/pidlockfile.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pyparsing.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/adapters.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/api.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/auth.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/exceptions.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/models.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/response.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/sessions.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/structures.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/structures.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/requests/utils.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/webencodings/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/cmdoptions.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/cmdoptions.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/download.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/download.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/req/req_file.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/req/req_file.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/req/req_install.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/req/req_install.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/utils/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/utils/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/utils/build.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/utils/build.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/wheel.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/wheel.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools-38.4.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools-38.4.0.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/bdist_egg.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/develop.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/easy_install.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/install_scripts.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/install_scripts.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/py36compat.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/py36compat.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/upload_docs.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/config.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/config.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/package_index.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/py36compat.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/py36compat.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/sandbox.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/wheel.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/wheel.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel-0.30.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel-0.30.0.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel/bdist_wheel.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel/bdist_wheel.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel/install.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel/install.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel/paths.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel/paths.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel/tool/__init__.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel/tool/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/wheel/wininst2wheel.py" afterPath="$PROJECT_DIR$/env/Lib/site-packages/wheel/wininst2wheel.py" />
-      <change beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
-      <change beforePath="$PROJECT_DIR$/iot/views.py" afterPath="$PROJECT_DIR$/iot/views.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -197,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/GPSTakip/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#224#233#0" expanded="true" />
               </folding>
@@ -225,16 +63,6 @@
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -907,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/GPSTakip/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#224#233#0" expanded="true" />
           </folding>
