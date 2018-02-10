@@ -52,8 +52,8 @@ CHANNEL_LAYERS = {
         'BACKEND': 'asgi_redis.RedisChannelLayer',
         'CONFIG': {
             #'hosts': [('localhost',6379)],
-            #'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
-            'hosts': [os.environ.get('REDIS_URL')],
+            'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
+            #'hosts': [os.environ.get('REDIS_URL')],
         },
         'ROUTING': 'GPSTakip.routing.channel_routing',
     }
