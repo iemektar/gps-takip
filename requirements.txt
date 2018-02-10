@@ -15,7 +15,6 @@ incremental==17.5.0
 msgpack-python==0.5.4
 psycopg2==2.7.3.2
 pytz==2017.3
-pywin32==222
 redis==2.10.6
 six==1.11.0
 Twisted==17.9.0
