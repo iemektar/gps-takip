@@ -28,8 +28,21 @@
 
          {% endif %}
 
+        <script>
+    var socket = new WebSocket('ws://' + window.location.host + '/users/');
 
+    socket.onopen = function open() {
+      alert('WebSockets connection created.');
+    };
+
+    socket.onmessage = function (ev) {
+      alert(e.data);
+    };
+
+    if (socket.readyState === WebSocket.OPEN) {
+      socket.onopen();
+    }
+  </script>
         {% include 'shared/base_form.html' with container_id='loginPanel' form_action='login' form_icon='fa fa-user' form_title='KULLANICI GİRİŞİ' button_icon='fa fa-sign-in' button_text='Giriş Yap' %}
-
     </body>
 </html>

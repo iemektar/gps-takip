@@ -37,10 +37,28 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #3rd party apps
+    'channels',
+    'asgi_redis',
+    #my apps
     'users',
     'home',
     'iot',
 ]
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'asgi_redis.RedisChannelLayer',
+        'CONFIG': {
+            #'hosts': [('localhost',6379)],
+            #'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
+            'hosts': [os.environ.get('REDIS_URL')],
+        },
+        'ROUTING': 'GPSTakip.routing.channel_routing',
+    }
+}
+
 LOGIN_REDIRECT_URL = 'home:home'
 LOGOUT_REDIRECT_URL = 'login'
 
