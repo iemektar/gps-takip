@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #3rd party apps
-    'channels',
-    'asgi_redis',
     #my apps
     'users',
     'home',
