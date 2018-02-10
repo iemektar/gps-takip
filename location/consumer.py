@@ -1,4 +1,4 @@
-"""from channels.channel import Group
+from channels.channel import Group
 import json
 
 def ws_connect(message):
@@ -11,4 +11,4 @@ def ws_disconnect(message):
         {
             "close": True,
         }
-    )"""
+    )
