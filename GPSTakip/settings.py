@@ -26,7 +26,7 @@ SECRET_KEY = ')h=t!#*l3)7uktgk*$1oong@wrprdx!tsdlga996up=fn^ku6@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['gps-takip.herokuapp.com','localhost']
 
 # Application definition
 
@@ -146,7 +146,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
