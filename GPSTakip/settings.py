@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')h=t!#*l3)7uktgk*$1oong@wrprdx!tsdlga996up=fn^ku6@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -47,14 +47,15 @@ INSTALLED_APPS = [
     'users',
     'home',
     'iot',
+    'location'
 ]
 
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'asgi_redis.RedisChannelLayer',
         'CONFIG': {
-            'hosts': [('localhost',6379)],
-            #'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
+            #'hosts': [('localhost',6379)],
+            'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
             #'hosts': [os.environ.get('REDIS_URL')],
         },
         'ROUTING': 'GPSTakip.routing.channel_routing',
@@ -145,5 +146,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS = [
    os.path.join(BASE_DIR, 'static'),
-    'app/staticfiles',
 ]
