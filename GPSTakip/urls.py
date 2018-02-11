@@ -31,5 +31,4 @@ urlpatterns = [
     path('users/',include(user_urls)),
     path('iot/',include(iot_urls))
 ]
-
 urlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)

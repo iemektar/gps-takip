@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import  dj_database_url
+import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,16 +31,18 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    #3rd party apps
+    # 3rd party apps
     'channels',
     'asgi_redis',
+
     #my apps
     'users',
     'home',
@@ -51,8 +53,8 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'asgi_redis.RedisChannelLayer',
         'CONFIG': {
-            #'hosts': [('localhost',6379)],
-            'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
+            'hosts': [('localhost',6379)],
+            #'hosts': [('redis://h:p8dc9fdca2f8bde3dd832a76b89954a834f4a2c5a8e92ac45828a8d2d9f427f66@ec2-52-5-111-41.compute-1.amazonaws.com:50889')],
             #'hosts': [os.environ.get('REDIS_URL')],
         },
         'ROUTING': 'GPSTakip.routing.channel_routing',
@@ -142,5 +144,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+   os.path.join(BASE_DIR, 'static'),
 ]
