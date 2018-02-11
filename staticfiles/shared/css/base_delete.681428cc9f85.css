@@ -1,0 +1,37 @@
+.value_label{
+   text-align: left;
+}
+
+#formTitle{
+    text-align:center;
+    color: white;
+    font-size: 125%;
+    padding-top: 20px;
+}
+label{
+    display: block;
+    text-align: right;
+}
+.card-title{
+    padding-bottom: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #DC3545;
+
+}
+
+.card{
+    border-radius: 7px;
+    border-color: #DC3545;
+}
+
+.button{
+   display:block;
+	text-align:center;
+
+}
+
+.controlTitle {
+    display: block;
+    text-align: right;
+}
