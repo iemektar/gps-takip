@@ -1,0 +1,10 @@
+#registerPanel, #updatePanel{
+    padding-top: 2%;
+}
+#loginPanel{
+    padding: 10%;
+}
+
+#deleteForm{
+    padding-top: 6%;
+}

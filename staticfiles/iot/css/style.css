@@ -1,0 +1,12 @@
+#deleteForm{
+   padding-top: 9%;
+}
+
+#iotRegisterPanel, #iotUpdatePanel{
+    padding: 8%;
+}
+
+
+#dataTable{
+    text-align: center;
+}
