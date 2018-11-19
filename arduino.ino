@@ -204,8 +204,6 @@ void serialCommunication()
     }
     else if(serialResponse.substring(0,3) == WRITE_FLAG)
     {
-        //TODO: End Flag olup olmadığı kontrol edilerek iletişim esnasında meydana gelen bir kesinti olursa işlem iptal edilir.
-        //Ayrıca SPLIT_FLAG sayılarıda kontrol edilerek eksik parametre olup olmadığı kontrol edilecek.
         serialResponse = serialResponse.substring(3, serialResponse.length());
         writeROM(serialResponse);
         Serial.println(WRITE_FLAG);
